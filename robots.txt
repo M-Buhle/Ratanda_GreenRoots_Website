@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://m-buhle.github.io/Ratanda_GreenRoots_Website/sitemap.xml

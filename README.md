@@ -3,45 +3,62 @@
 Website proposal and prototype for Ratanda GreenRoots Community Garden
 
 ## Overview
+This website was created for the Ratanda GreenRoots community organisation to showcase services, events, volunteering opportunities, and contact information.
 
-This is a proposed website for Ratanda GreenRoots, a community-based non-profit organisation in Ratanda Township, Gauteng.
-
-## Features (Part 1 & 2)
-
-* Homepage with hero content and Call-to-Action (CTA)
-* About Us page with history, mission, and vision
-* Services/Programs page (gardening, youth, recycling)
-* Dedicated Volunteer & Donation forms (Enquiry page)
-* Contact page with location and contact details
-* *Fully Responsive Design* for desktop, tablet, and mobile
+## Folder Structure
+- index.html (Home Page)
+- about.html
+- services.html
+- enquiry.html
+- contact.html
+- css/style.css
+- js/main.js
+- images/ (all images)
+- data/services.json
+- robots.txt
+- sitemap.xml
 
 ## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Leaflet JS (interactive map)
+- GitHub / GitHub Pages
 
-* HTML5 (Structure)
-* CSS3 (Styling and Responsiveness)
-* JavaScript (Forms/Button placeholders - Future scope)
-* GitHub Pages (for hosting)
+## Features
+- Navigation bar across all pages
+- Responsive layout
+- Lightbox gallery
+- Interactive map
+- Dynamic content loading (services.json)
+- Search filter for services
+- Enquiry form with cost + availability calculation
+- Contact form with validation + mailto
+- SEO optimisation
 
-## Setup Instructions
+## Changelog
 
-1. Clone this repository
-2. Open index.html in a browser
+### Part 1
+- Created website structure
+- Created pages: index, about, services, enquiry, contact
+- Added basic navigation and structure
 
-## Author
+### Part 2
+- Improved layout and visual design
+- Updated colour scheme and typography
+- Improved spacing, alignment, and image presentation
+- Corrected navigation issues
+- Fixed semantic HTML structure
 
-Buhle Mputhi (ST10488724) - WEDE5020w Project
-
-## Changelog (Part 1 Feedback & Part 2 Implementation)
-
-| Date | Changes Made | Category |
-| :--- | :--- | :--- |
-| 2025 | *Implemented Part 2 CSS Styling* - Created and linked external css/style.css file. Implemented CSS Reset, Green/Brown colour scheme, and typography. | Part 2: CSS Styling |
-| 2025 | *Implemented Flexbox Layout* - Used Flexbox for header and navigation layout. | Part 2: Layout |
-| 2025 | *Implemented Responsive Design* - Added media queries for mobile/tablet breakpoints. Navigation switches to single-column on small screens. | Part 2: Responsive Design |
-| 2025 | *Added Unique Page Content* - Fixed Part 1 feedback by adding detailed, page-specific content to all HTML pages from project proposal. | Part 1: Content Correction |
-| 2025 | *Added Volunteer Form* - Implemented HTML form structure for volunteer applications. | Part 1: Content Correction |
-| 2025 | *Fixed Image Display Issues* - Replaced local image paths with working Unsplash URLs to ensure all images display correctly. | Part 1/2: Technical Fix |
-| 2025 | *Updated Image References* - Added complete attribution for all new Unsplash images used across the website. | Part 1: Referencing |
+### Part 3
+- Added JavaScript enhancements (accordion, lightbox, dynamic content)
+- Added interactive Leaflet map
+- Added enquiry form with validation and cost calculation
+- Added contact form with validation and email compilation
+- Added services.json for dynamic content loading
+- Added SEO (meta tags, images alt text, sitemap.xml, robots.txt)
+- Added animations and transitions
+- Added search functionality on services page
 
 ## Screenshots
 
@@ -158,14 +175,7 @@ Buhle Mputhi (ST10488724) - WEDE5020w Project
 
 15. W3C. (2024). Web Content Accessibility Guidelines (WCAG). Retrieved from: https://www.w3.org/WAI/standards-guidelines/wcag/
 
-## Changelog
 
-### Part 3 
-- Implemented Part 2 feedback
-- Added interactive features: accordion, modal, lightbox gallery.
-- Added interactive Leaflet map on contact.html.
-- Implemented dynamic services list (data/services.json) and client-side search.
-- Created enquiry form with validation and cost calculation (enquiry.html).
-- Created contact form with validation and mailto fallback (contact.html).
-- Added SEO elements: meta descriptions, keywords, robots.txt, sitemap.xml.
-- Added js/main.js and CSS tweaks in css/style.css.
+## Author
+
+Buhle Mputhi (ST10488724) - WEDE5020w Project
