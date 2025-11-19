@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratanda GreenRoots — Volunteer & Donate</title>
+    <meta name="description" content="Make an enquiry about services and sponsorship options; get cost and availability.">
+    <meta name="keywords" content="Ratanda, GreenRoots, volunteer, tree planting, community">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&w=400" alt="Ratanda Green Roots Logo" width="120">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Volunteer/Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Volunteer and Donation Opportunities</h1>
+
+        <section id="enquiry-section">
+          <h2>Make an Enquiry</h2>
+          <form id="enquiryForm" action="#" novalidate>
+            <label>Full name
+              <input type="text" name="name" id="name" required minlength="2" />
+            </label>
+
+            <label>Email
+              <input type="email" name="email" id="email" required />
+            </label>
+
+            <label>Phone
+              <input type="tel" name="phone" id="phone" pattern="^\\+?[0-9\\s-]{7,15}$" required />
+            </label>
+
+            <label>Service
+              <select name="service" id="service" required>
+                <option value="">Select a service</option>
+                <option value="tree">Tree Planting (Free)</option>
+                <option value="sponsor">Sponsor a Child (R300)</option>
+                <option value="event">Community Event (R50 per person)</option>
+              </select>
+            </label>
+
+            <label>Quantity / People
+              <input type="number" id="quantity" name="quantity" min="1" value="1" required />
+            </label>
+
+            <button type="submit">Check Enquiry</button>
+          </form>
+
+          <div id="enquiryResult" role="status" aria-live="polite"></div>
+        </section>
+
+            <h2>Volunteer with Ratanda GreenRoots</h2>
+            <p>We are always looking for passionate community members to help us in our gardens and programs. Please fill out the form below to get involved!</p>
+
+            <form action="#" method="POST">
+                <label for="v_name">Full Name:</label>
+                <input type="text" id="v_name" name="volunteer_name" required>
+
+                <label for="v_email">Email Address:</label>
+                <input type="email" id="v_email" name="volunteer_email" required>
+                
+                <label for="v_phone">Phone Number:</label>
+                <input type="text" id="v_phone" name="volunteer_phone">
+
+                <label for="v_interest">Area of Interest (Gardening, Youth Programs, Recycling):</label>
+                <input type="text" id="v_interest" name="volunteer_interest">
+
+                <label for="v_message">Tell us why you want to volunteer:</label>
+                <textarea id="v_message" name="volunteer_message" rows="5"></textarea>
+
+                <button type="submit">Submit Volunteer Application</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Support Our Projects with a Donation</h2>
+            <p>Your generous contribution helps us buy seeds, tools, and expand our youth development initiatives. Click the button below to help us grow!</p>
+            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&w=600" alt="Community working together" width="400">
+            <br>
+            <a href="#" class="cta-button" style="background-color: #004d00;"> Donate Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ratanda Green Roots</p>
+    </footer>
+
+<!-- 
+Image Credits:
+- Header: Unsplash - Gardener with hat
+- Content: Unsplash - Team working together
+-->
+</body>
+</html>

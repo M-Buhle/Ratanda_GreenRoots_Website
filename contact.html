@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratanda GreenRoots — Contact</title>
+    <meta name="description" content="Contact Ratanda GreenRoots — send messages or find our office on the map.">
+    <meta name="keywords" content="Ratanda, GreenRoots, volunteer, tree planting, community">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&w=400" alt="Ratanda Green Roots Logo" width="120">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Volunteer/Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Ratanda GreenRoots</h1>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>We welcome all enquiries, partnerships, and collaborations. Reach out to us using the details below:</p>
+            <ul>
+                <li><strong>Address:</strong> Ratanda Community Garden Site, Ratanda Township, Gauteng</li>
+                <li><strong>Phone:</strong> +27 (0)11 XXX XXXX</li>
+                <li><strong>Email:</strong> info@ratandagreenroots.org</li>
+            </ul>
+            <p>We aim to respond to all enquiries within 48 hours.</p>
+        </section>
+
+        <section id="contact-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="#" novalidate>
+               <label>Name <input type="text" id="cname" name="cname" required minlength="2"></label>
+               <label>Email <input type="email" id="cemail" name="cemail" required></label>
+               <label>Type of message
+                 <select id="ctype" name="ctype" required>
+                   <option value="">Select</option>
+                   <option value="general">General</option>
+                   <option value="feedback">Feedback</option>
+                   <option value="support">Support</option>
+                 </select>
+               </label>
+               <label>Message <textarea id="cmessage" name="cmessage" required minlength="10"></textarea></label>
+               <button type="submit">Send</button>
+            </form>
+
+            <div id="contactStatus" aria-live="polite"></div>
+        </section>
+
+
+        <section>
+            <h3>Find Us</h3>
+            <p>Visit our main garden site in Ratanda Township, Gauteng.</p>
+             <div id="map" style="height: 300px; background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%); border: 2px solid #4caf50; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #2e7d32; font-weight: bold;">
+             <div style="text-align: center;">
+                 <div style="font-size: 2rem; margin-bottom: 1rem;">📍</div>
+                 <div>Ratanda Township, Gauteng</div>
+                 <div style="font-size: 0.9rem; margin-top: 0.5rem; opacity: 0.8;">Google Maps Embed - Location: Ratanda</div>
+             </div>
+        </section>
+        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&w=600" alt="Community location" width="400" style="margin-top: 20px;">
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ratanda Green Roots</p>
+    </footer>
+
+<!-- 
+Image Credits:
+- Header: Unsplash - Community farm landscape
+- Content: Unsplash - Community location
+-->
+</body>
+</html>

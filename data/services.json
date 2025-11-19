@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Tree Planting",
+    "category": "volunteer",
+    "description": "Join our community tree planting day to rejuvenate local parks.",
+    "price": 0
+  },
+  {
+    "id": 2,
+    "title": "Food Drive",
+    "category": "events",
+    "description": "Donate food or help distribute to families in need.",
+    "price": 0
+  },
+  {
+    "id": 3,
+    "title": "Sponsor a Child",
+    "category": "sponsorship",
+    "description": "Monthly sponsorship to support school fees and food.",
+    "price": 300
+  }
+]
